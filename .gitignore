@@ -11,3 +11,9 @@ managed_components/
 /.agents/skills/passport-build
 /.agents/skills/passport-device-test
 /.agents/skills/passport-debug
+
+# Private Grok MCP device and gateway configuration.
+/main/grok_local_config.h
+/gateway/grok_bot/.env
+/gateway/grok_bot/.venv/
+__pycache__/

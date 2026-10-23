@@ -1,0 +1,6 @@
+# Python 3.11+. Official MCP SDK and JWT verifier; both are MIT licensed.
+# Reviewed source: https://github.com/modelcontextprotocol/python-sdk/tree/v1.26.0
+# Reviewed source: https://github.com/jpadilla/pyjwt/tree/2.10.1
+# No dependency installation or vulnerability audit has been run for this change.
+mcp==1.26.0
+PyJWT[crypto]==2.10.1

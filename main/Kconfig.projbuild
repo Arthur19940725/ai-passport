@@ -1,0 +1,14 @@
+menu "AI Passport application"
+
+config PASSPORT_GROK_MCP
+    bool "Use the Grok Bot MCP device application"
+    default n
+    select MBEDTLS_CERTIFICATE_BUNDLE
+    select ESP_HTTP_CLIENT_ENABLE_HTTPS
+    help
+        Start the independent MCP device UI instead of the hardware demo.
+        Configure main/grok_local_config.h using the example header.
+        The device polls your HTTPS gateway; Grok Bot calls its MCP tools.
+        This does not implement Grok Bot voice chat or a private Bot API.
+
+endmenu
